@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+<<<<<<< Updated upstream
 //import 'package:firebase_core/firebase_core.dart';
+=======
+import 'package:neoenvi/LoginScreen.dart';
+
+>>>>>>> Stashed changes
 void main() => runApp(MyApp());
 //Test Firebase
 /*Future main() async {
@@ -16,7 +21,7 @@ class MyApp extends StatelessWidget {
       title: 'First Launch',
       theme: ThemeData(
           primarySwatch: Colors.blue,
-          scaffoldBackgroundColor: const Color(0xff2984ff),
+          scaffoldBackgroundColor: const Color(0xff64A6FF),
       ),
       home: MyHomePage(),
     );
@@ -46,7 +51,11 @@ class MyHomePage extends StatelessWidget{
             Container(
               margin: const EdgeInsets.only(top: 220.0,right: 200),
               child:ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LoginScreen()),
+                  );
+                },
                 child: Text("-> Bắt đầu",
                 style: const TextStyle(fontWeight: FontWeight.bold,fontSize: 20),
                 ),
