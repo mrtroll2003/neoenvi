@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:neoenvi/LoginScreen.dart';
+import 'package:neoenvi/MainScreen.dart';
+import 'package:neoenvi/webcrawl.dart';
+
 //import 'package:firebase_core/firebase_core.dart';
 void main() => runApp(MyApp());
 //Test Firebase
@@ -9,6 +12,8 @@ void main() => runApp(MyApp());
   
   runApp(MyApp());
 }*/
+
+
 
 class MyApp extends StatelessWidget {
   @override
@@ -33,23 +38,15 @@ class MyHomePage extends StatelessWidget{
           children: <Widget>[
             Image.asset('assest/images/FirstLaunch/FirstLaunch_Illustrator_1.png'),
             Text(
-                "Chào mừng",
+                "Chào mừng bạn",
               style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 24, height: 2.5),
-            ),
-            Text(
-              "Cảm ơn bạn đã góp phần",
-              style: const TextStyle(fontWeight: FontWeight.w100, color: Colors.white, fontSize: 24),
-            ),
-            Text(
-              "thực hiện bảo vệ môi trường",
-              style: const TextStyle(fontWeight: FontWeight.w100, color: Colors.white, fontSize: 24),
             ),
             Container(
               margin: const EdgeInsets.only(top: 220.0,right: 200),
               child:ElevatedButton(
                 onPressed: () {
                   Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => LoginScreen()),
+                  MaterialPageRoute(builder: (context) => MainScreen()),
                   );
                 },
                 child: Text("-> Bắt đầu",
