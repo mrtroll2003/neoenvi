@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-<<<<<<< Updated upstream
-//import 'package:firebase_core/firebase_core.dart';
-=======
 import 'package:neoenvi/LoginScreen.dart';
-
->>>>>>> Stashed changes
+//import 'package:firebase_core/firebase_core.dart';
 void main() => runApp(MyApp());
 //Test Firebase
 /*Future main() async {
