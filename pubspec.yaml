@@ -68,7 +68,7 @@ flutter:
   assets:
     - assest/images/FirstLaunch/
     - assest/images/LoginScreen/
-    
+    - assest/images/LoginScreen/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
