@@ -36,7 +36,20 @@ class MyHomePage extends StatelessWidget{
               "thực hiện bảo vệ môi trường",
               style: const TextStyle(fontWeight: FontWeight.w100, color: Colors.white, fontSize: 24),
             ),
-
+            Container(
+              margin: const EdgeInsets.only(top: 220.0,right: 200),
+              child:ElevatedButton(
+                onPressed: () {},
+                child: Text("-> Bắt đầu",
+                style: const TextStyle(fontWeight: FontWeight.bold,fontSize: 20),
+                ),
+                style: ElevatedButton.styleFrom(
+                  shape: CircleBorder(),
+                  minimumSize: Size(70, 70),
+                  backgroundColor: const Color(0xff2A2A2A),
+                ),
+            ),
+            ),
           ]
         ),
       ),

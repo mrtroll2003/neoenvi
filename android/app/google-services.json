@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "818032982524",
+    "project_id": "neoenvironment-53424",
+    "storage_bucket": "neoenvironment-53424.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818032982524:android:a083bafa18df8f064a5a79",
+        "android_client_info": {
+          "package_name": "com.neo.neoenvi.neoenvi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818032982524-c55ksbupvr70g2fmtu2b23vej1odbq8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA83ORkISFvBz3jF_f4NeQYPp0L3EqYIwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818032982524-c55ksbupvr70g2fmtu2b23vej1odbq8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
