@@ -2,9 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:neoenvi/LoginScreen.dart';
 import 'package:neoenvi/MainScreen.dart';
 import 'package:neoenvi/webcrawl.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 //import 'package:firebase_core/firebase_core.dart';
-void main() => runApp(MyApp());
+void main() async { 
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp;
+  runApp(MyApp());
+  }
 //Test Firebase
 /*Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -49,7 +54,7 @@ class MyHomePage extends StatelessWidget{
                   MaterialPageRoute(builder: (context) => MainScreen()),
                   );
                 },
-                child: Text("-> Bắt đầu",
+                child: Text("Bắt đầu",
                 style: const TextStyle(fontWeight: FontWeight.bold,fontSize: 20),
                 ),
                 style: ElevatedButton.styleFrom(

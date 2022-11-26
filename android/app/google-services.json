@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:818032982524:android:a083bafa18df8f064a5a79",
+        "mobilesdk_app_id": "1:818032982524:android:73685fba786f648b4a5a79",
         "android_client_info": {
-          "package_name": "com.neo.neoenvi.neoenvi"
+          "package_name": "com.neo.neoenvi"
         }
       },
       "oauth_client": [
